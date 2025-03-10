@@ -40,3 +40,28 @@ console.log(myfunction);
 
 
 console.log(typeof bigNumber);
+
+//Stack(primitive) and Heap memory(Non-primitive)
+
+let myYoutubeName = "Rohith Uppunuthula"
+
+let anotherName = myYoutubeName
+anotherName = "Chai aur code"
+console.log(anotherName);
+console.log(myYoutubeName);
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi:"xyz@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@gmai.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+
