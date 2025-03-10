@@ -29,3 +29,8 @@ console.log(newStringOne.trim());
 
 
 
+const url = "https://google.com/rohith%20uppunuthula"
+
+console.log(url.replace('%20', ''))
+
+console.log(gameName.split("-"));
